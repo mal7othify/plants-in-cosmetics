@@ -1,6 +1,5 @@
 package com.example.plantsincosmetics.ui.theme
 
-import androidx.compose.material.MaterialTheme
 import androidx.compose.material.Typography
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.TextStyle
@@ -40,18 +39,5 @@ val Typography = Typography(
         fontSize = 16.sp,
         color = Color(0xFF8b8da1),
         textAlign = TextAlign.Left
-    ),
-
-    /* Other default text styles to override
-    button = TextStyle(
-        fontFamily = FontFamily.Default,
-        fontWeight = FontWeight.W500,
-        fontSize = 14.sp
-    ),
-    caption = TextStyle(
-        fontFamily = FontFamily.Default,
-        fontWeight = FontWeight.Normal,
-        fontSize = 12.sp
     )
-    */
 )

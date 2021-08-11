@@ -70,6 +70,7 @@ fun PlanetCardPreview() {
         PlantCard(plants[0].name, plants[0].description, plants[0].imageRes)
     }
 }
+
 @Preview(uiMode = Configuration.UI_MODE_NIGHT_NO, showBackground = true, name = "Light mode")
 @Preview(uiMode = Configuration.UI_MODE_NIGHT_YES, showBackground = true, name = "Dark mode")
 @Composable
